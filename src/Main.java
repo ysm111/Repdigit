@@ -5,11 +5,11 @@
 public class Main {
     public static void main(String[] args){
         /**
-         * 8進数と16進数で共にゾロ目となるような数の2進数
+         * 8進数と16進数で共にゾロ目となるような数(2進数)
          */
         StringBuilder binary=new StringBuilder();
         /**
-         * 2進数で'1'が12個並んだ数
+         * '1'が12個並んだ数(2進数)
          */
         StringBuilder base=new StringBuilder();
 
@@ -19,9 +19,10 @@ public class Main {
                 base.append(1);
             }
 
-            //2進数で'1'が12の倍数個並んだ数の生成及び表示
             for(int i=0;i<3;i++){
+                //2進数で'1'が12の倍数個並んだ数の生成
                 binary.append(base.toString());
+                //2進数で'1'が12の倍数個並んだ数の表示
                 System.out.println(Long.parseLong(binary.toString(), 2));
             }
         }catch (Exception e){
