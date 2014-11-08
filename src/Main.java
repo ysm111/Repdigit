@@ -13,7 +13,7 @@ public class Main {
          */
         StringBuilder base=new StringBuilder();
 
-        //2進数表現で'1'が12個並んだ数を生成
+        //2進数表現で'1'が12個並んだ数の生成
         for(int i=0;i<12;i++){
             base.append(1);
         }
