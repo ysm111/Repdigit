@@ -25,6 +25,7 @@ public class Main {
                 System.out.println(Long.parseLong(binary.toString(), 2));
             }
         }catch (Exception e){
+            //例外の内容を表示
             e.printStackTrace();
         }
     }
